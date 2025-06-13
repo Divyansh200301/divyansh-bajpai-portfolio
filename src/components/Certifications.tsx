@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Certificate, Calendar } from 'lucide-react';
+import { Award, Calendar } from 'lucide-react';
 
 const Certifications = () => {
   const certifications = [
@@ -46,7 +46,7 @@ const Certifications = () => {
             >
               <div className="flex items-start space-x-4">
                 <div className="bg-blue-600 text-white p-3 rounded-lg flex-shrink-0">
-                  <Certificate size={20} />
+                  <Award size={20} />
                 </div>
                 <div className="flex-1">
                   <h3 className="font-semibold text-gray-900 mb-2">
